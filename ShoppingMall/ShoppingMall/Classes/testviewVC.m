@@ -17,6 +17,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    UITextField * test =[[UITextField alloc] initWithFrame:CGRectMake(100, 100, 100, 30)];
+    self.view.backgroundColor=[UIColor grayColor];
+    test.backgroundColor=[UIColor whiteColor];
+    [test setKeyboardType:UIKeyboardTypeNumberPad];
+    //[test resignFirstResponder];
+    [self.view addSubview:test];
 }
 
 - (void)didReceiveMemoryWarning {

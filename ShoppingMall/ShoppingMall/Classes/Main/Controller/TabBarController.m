@@ -61,10 +61,24 @@
 //创建单个子页面
 -(void)addSimpleController:(UIViewController*)vc withTitle:(NSString*)title withImage:(NSString*)img
 {
+    //设置控制器标题
     vc.title=title;
+    
+    
     //Creates and returns a new image object with the specified rendering mode.
     vc.tabBarItem.image=[[UIImage imageNamed:img] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     vc.tabBarItem.selectedImage=[[UIImage imageNamed:[NSString stringWithFormat:@"%@_seleted",img]]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    
+    
+    //设置文字样式
+    NSMutableDictionary *textAttrs=[NSMutableDictionary dictionary];
+    textAttrs[NSForegroundColorAttributeName]=[UIColor whiteColor];
+    [vc.tabBarItem setTitleTextAttributes:textAttrs forState:UIControlStateNormal];
+    
+    NSMutableDictionary *selectTextAttrs=[NSMutableDictionary dictionary];
+    selectTextAttrs[NSForegroundColorAttributeName]=[UIColor whiteColor];
+    [vc.tabBarItem setTitleTextAttributes:selectTextAttrs forState:UIControlStateSelected];
+    
     
     UINavigationController* navi=[[UINavigationController alloc] initWithRootViewController:vc];
     [self addChildViewController:navi];
