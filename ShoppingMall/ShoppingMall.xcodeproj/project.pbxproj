@@ -22,6 +22,7 @@
 		04B218BC1CAA2CFE00634148 /* MomentTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B218BB1CAA2CFE00634148 /* MomentTableViewController.m */; };
 		04B218BF1CAA2D1900634148 /* ServiceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B218BE1CAA2D1900634148 /* ServiceTableViewController.m */; };
 		04B218C21CAA2D5F00634148 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B218C11CAA2D5F00634148 /* TabBarController.m */; };
+		B2E433651CBA2C48002AF258 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E433641CBA2C48002AF258 /* LoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,8 @@
 		04B218BE1CAA2D1900634148 /* ServiceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceTableViewController.m; sourceTree = "<group>"; };
 		04B218C01CAA2D5F00634148 /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
 		04B218C11CAA2D5F00634148 /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		B2E433631CBA2C48002AF258 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		B2E433641CBA2C48002AF258 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +166,7 @@
 		04B218951CAA2BF600634148 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				B2E433611CBA2C0E002AF258 /* Login */,
 				04B218961CAA2BF600634148 /* Main */,
 				04B2189C1CAA2BF600634148 /* Mall */,
 				04B218A01CAA2BF600634148 /* Me */,
@@ -375,6 +379,23 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		B2E433611CBA2C0E002AF258 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B2E433621CBA2C1B002AF258 /* Controller */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		B2E433621CBA2C1B002AF258 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B2E433631CBA2C48002AF258 /* LoginViewController.h */,
+				B2E433641CBA2C48002AF258 /* LoginViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -514,6 +535,7 @@
 				04B218311CA9088B00634148 /* ViewController.m in Sources */,
 				04B218BC1CAA2CFE00634148 /* MomentTableViewController.m in Sources */,
 				04B218C21CAA2D5F00634148 /* TabBarController.m in Sources */,
+				B2E433651CBA2C48002AF258 /* LoginViewController.m in Sources */,
 				04B2182B1CA9088B00634148 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -12,6 +12,7 @@
 #import "MomentTableViewController.h"
 #import "MallTableViewController.h"
 #import "MeTableViewController.h"
+#import "LoginViewController.h"
 
 #import "TabBar.h"
 
@@ -43,6 +44,11 @@
 {
     MessageTableViewController *message=[[MessageTableViewController alloc]init];
     [self addSimpleController:message withTitle:@"信息" withImage:@"tabbar_message"];
+    
+//    LoginViewController* login = [[LoginViewController alloc] init];
+//    
+//    MessageTableViewController *message=[[MessageTableViewController alloc]init];
+//    [self addSimpleController:login withTitle:@"信息" withImage:@"tabbar_message"];
     
     ServiceTableViewController *service=[[ServiceTableViewController alloc]init];
     [self addSimpleController:service withTitle:@"服务" withImage:@"tabbar_service"];
