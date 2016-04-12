@@ -24,6 +24,7 @@
 		04B218C21CAA2D5F00634148 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B218C11CAA2D5F00634148 /* TabBarController.m */; };
 		04EF140C1CBA4E85003DE124 /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EF140B1CBA4E85003DE124 /* LoginController.m */; };
 		04EF14101CBA6CCC003DE124 /* testviewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EF140F1CBA6CCC003DE124 /* testviewVC.m */; };
+		B27058071CBD52EA00182D30 /* LoginViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = B27058061CBD52EA00182D30 /* LoginViewController2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +79,8 @@
 		04EF140B1CBA4E85003DE124 /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
 		04EF140E1CBA6CCC003DE124 /* testviewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testviewVC.h; sourceTree = "<group>"; };
 		04EF140F1CBA6CCC003DE124 /* testviewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testviewVC.m; sourceTree = "<group>"; };
+		B27058051CBD52EA00182D30 /* LoginViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController2.h; sourceTree = "<group>"; };
+		B27058061CBD52EA00182D30 /* LoginViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -405,6 +408,8 @@
 			children = (
 				04EF140A1CBA4E85003DE124 /* LoginController.h */,
 				04EF140B1CBA4E85003DE124 /* LoginController.m */,
+				B27058051CBD52EA00182D30 /* LoginViewController2.h */,
+				B27058061CBD52EA00182D30 /* LoginViewController2.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -559,6 +564,7 @@
 				04EF140C1CBA4E85003DE124 /* LoginController.m in Sources */,
 				04B218B91CAA2CE600634148 /* MessageTableViewController.m in Sources */,
 				04EF14101CBA6CCC003DE124 /* testviewVC.m in Sources */,
+				B27058071CBD52EA00182D30 /* LoginViewController2.m in Sources */,
 				04B218BF1CAA2D1900634148 /* ServiceTableViewController.m in Sources */,
 				04B218B61CAA2CCD00634148 /* MeTableViewController.m in Sources */,
 				04B218B31CAA2CB800634148 /* MallTableViewController.m in Sources */,
