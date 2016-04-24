@@ -24,6 +24,10 @@
 		04B218C21CAA2D5F00634148 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B218C11CAA2D5F00634148 /* TabBarController.m */; };
 		04EF140C1CBA4E85003DE124 /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EF140B1CBA4E85003DE124 /* LoginController.m */; };
 		04EF14101CBA6CCC003DE124 /* testviewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EF140F1CBA6CCC003DE124 /* testviewVC.m */; };
+		B20800D81CCCA4E9009CE8C1 /* BasicInfo1TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B20800D11CCCA4E9009CE8C1 /* BasicInfo1TableViewCell.m */; };
+		B20800D91CCCA4E9009CE8C1 /* BasicInfo2TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B20800D31CCCA4E9009CE8C1 /* BasicInfo2TableViewCell.m */; };
+		B20800DA1CCCA4E9009CE8C1 /* BasicInfo3TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B20800D51CCCA4E9009CE8C1 /* BasicInfo3TableViewCell.m */; };
+		B20800DB1CCCA4E9009CE8C1 /* BasicInfoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B20800D71CCCA4E9009CE8C1 /* BasicInfoTableViewController.m */; };
 		B27058071CBD52EA00182D30 /* LoginViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = B27058061CBD52EA00182D30 /* LoginViewController2.m */; };
 /* End PBXBuildFile section */
 
@@ -79,6 +83,14 @@
 		04EF140B1CBA4E85003DE124 /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
 		04EF140E1CBA6CCC003DE124 /* testviewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testviewVC.h; sourceTree = "<group>"; };
 		04EF140F1CBA6CCC003DE124 /* testviewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testviewVC.m; sourceTree = "<group>"; };
+		B20800D01CCCA4E9009CE8C1 /* BasicInfo1TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicInfo1TableViewCell.h; sourceTree = SOURCE_ROOT; };
+		B20800D11CCCA4E9009CE8C1 /* BasicInfo1TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicInfo1TableViewCell.m; sourceTree = SOURCE_ROOT; };
+		B20800D21CCCA4E9009CE8C1 /* BasicInfo2TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicInfo2TableViewCell.h; sourceTree = SOURCE_ROOT; };
+		B20800D31CCCA4E9009CE8C1 /* BasicInfo2TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicInfo2TableViewCell.m; sourceTree = SOURCE_ROOT; };
+		B20800D41CCCA4E9009CE8C1 /* BasicInfo3TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicInfo3TableViewCell.h; sourceTree = SOURCE_ROOT; };
+		B20800D51CCCA4E9009CE8C1 /* BasicInfo3TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicInfo3TableViewCell.m; sourceTree = SOURCE_ROOT; };
+		B20800D61CCCA4E9009CE8C1 /* BasicInfoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicInfoTableViewController.h; sourceTree = SOURCE_ROOT; };
+		B20800D71CCCA4E9009CE8C1 /* BasicInfoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicInfoTableViewController.m; sourceTree = SOURCE_ROOT; };
 		B27058051CBD52EA00182D30 /* LoginViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController2.h; sourceTree = "<group>"; };
 		B27058061CBD52EA00182D30 /* LoginViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -283,6 +295,7 @@
 		04B218A31CAA2BF600634148 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				B20800CF1CCCA4BA009CE8C1 /* MyBasicInfo */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -430,6 +443,21 @@
 			name = Model;
 			sourceTree = "<group>";
 		};
+		B20800CF1CCCA4BA009CE8C1 /* MyBasicInfo */ = {
+			isa = PBXGroup;
+			children = (
+				B20800D01CCCA4E9009CE8C1 /* BasicInfo1TableViewCell.h */,
+				B20800D11CCCA4E9009CE8C1 /* BasicInfo1TableViewCell.m */,
+				B20800D21CCCA4E9009CE8C1 /* BasicInfo2TableViewCell.h */,
+				B20800D31CCCA4E9009CE8C1 /* BasicInfo2TableViewCell.m */,
+				B20800D41CCCA4E9009CE8C1 /* BasicInfo3TableViewCell.h */,
+				B20800D51CCCA4E9009CE8C1 /* BasicInfo3TableViewCell.m */,
+				B20800D61CCCA4E9009CE8C1 /* BasicInfoTableViewController.h */,
+				B20800D71CCCA4E9009CE8C1 /* BasicInfoTableViewController.m */,
+			);
+			name = MyBasicInfo;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -562,12 +590,16 @@
 			files = (
 				04B218B01CAA2BF600634148 /* AppDelegate.m in Sources */,
 				04EF140C1CBA4E85003DE124 /* LoginController.m in Sources */,
+				B20800DB1CCCA4E9009CE8C1 /* BasicInfoTableViewController.m in Sources */,
 				04B218B91CAA2CE600634148 /* MessageTableViewController.m in Sources */,
 				04EF14101CBA6CCC003DE124 /* testviewVC.m in Sources */,
 				B27058071CBD52EA00182D30 /* LoginViewController2.m in Sources */,
 				04B218BF1CAA2D1900634148 /* ServiceTableViewController.m in Sources */,
+				B20800D91CCCA4E9009CE8C1 /* BasicInfo2TableViewCell.m in Sources */,
 				04B218B61CAA2CCD00634148 /* MeTableViewController.m in Sources */,
+				B20800DA1CCCA4E9009CE8C1 /* BasicInfo3TableViewCell.m in Sources */,
 				04B218B31CAA2CB800634148 /* MallTableViewController.m in Sources */,
+				B20800D81CCCA4E9009CE8C1 /* BasicInfo1TableViewCell.m in Sources */,
 				049ACBCC1CAA6C8D00BCD3E6 /* TabBar.m in Sources */,
 				04B218311CA9088B00634148 /* ViewController.m in Sources */,
 				04B218BC1CAA2CFE00634148 /* MomentTableViewController.m in Sources */,
