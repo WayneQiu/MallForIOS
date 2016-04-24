@@ -37,7 +37,7 @@
 -(void)initSubviews
 {
     UIImageView* backView = [[UIImageView alloc] initWithFrame:self.bounds];
-    backView.image = [UIImage imageNamed:@"loginbackground.png"];
+    backView.image = [UIImage imageNamed:@"login_background.png"];
     backView.backgroundColor = [UIColor greenColor];
     //imageView.contentMode = UIViewContentModeScaleAspectFit;
     self.backgroundView =backView;
